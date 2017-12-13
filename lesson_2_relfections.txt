@@ -10,13 +10,26 @@ Files in stagging area are already visible in git. It can be commited.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+If more change were made I can add only one change to staging area and then commit this one change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are helpful when I want to impelment some experimental feature without affecting master branch. Branch can be also usefull when i want to have stable branch. In second case I use master branch to implement new features and new created branch as a last stable working version.
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams show how repository tree loks like. It helps to see were tree was splieted for two different branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Commits from to branches are merged and visible in one branch.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros:
+- no need to resolve conflict manually
+Cons:
+- git does't know which change would be better
